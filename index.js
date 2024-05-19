@@ -7,7 +7,7 @@ const keepAlive = require("./server.js");
 const process = require("process");
 require("dotenv").config();
 const { Client,	Collection,	Intents, MessageEmbed } = require("discord.js");
-
+const keep_alive = require('./keep_alive.js')
 // Initialize bot client and the intents it's needed.
 const client = new Client({
 	intents: [
